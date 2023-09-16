@@ -7,6 +7,7 @@ resultado = num1 + num2
 print("la suma de losnumeros es: ", resultado)
 #este es el primer comentario
 """
+"""
 #string
 my_name = "jeferson"
 print("nombre ", my_name)
@@ -27,3 +28,29 @@ print(type(Estado_civil))
 edad = input("¿Cual es la edad? ")
 print("edad es: ", edad)
 print(type(edad))
+"""
+name = "jeferson"
+last_name = 'Lopez'
+print(name)
+print(last_name)
+
+full_name = name + " " + last_name
+print(full_name)
+
+quote = "i'm jeferson"
+print(quote)
+
+quote2 = 'she said "hello"'
+print(quote2)
+
+#format
+template = "Hi, my name is " + name + " and my last name " + last_name
+print(template)
+
+template = "Hi, my name is {} and my last name is {}".format(name,last_name)
+print(template)
+
+template = f"Hi, my name is {name} and my last name is {last_name}"
+print(template)
+
+
