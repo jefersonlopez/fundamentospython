@@ -91,3 +91,7 @@ print(y)
 tolerance = 0.00001
 print(abs(y-x) < tolerance)
 
+#Operadores logicos
+
+print(True and True) # operador and las dos condiciones deben cumplirse
+print(True or False) # operador or cualquiera de las condiciones se puede cumplir
