@@ -44,8 +44,7 @@ quote2 = 'she said "hello"'
 print(quote2)
 
 #format
-template = "Hi, my name is " + name + " and my last name " + last_name
-print(template)
+print("Hi, my name is " + name + " and my last name " + last_name)
 
 template = "Hi, my name is {} and my last name is {}".format(name,last_name)
 print(template)
@@ -53,4 +52,14 @@ print(template)
 template = f"Hi, my name is {name} and my last name is {last_name}"
 print(template)
 
+var = True
+var = not var
+print(var)
+
+valor1 = "andrey"
+print(type(valor1))
+
+edad = 27
+print(edad)
+print(f"mi edad es {edad}")
 
