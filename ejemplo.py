@@ -72,3 +72,14 @@ print(10/2) #división
 print(10%2) #residuo de división
 print(10//3) #modulo de la división
 print(2**3) #potenciación
+
+#Operadores de comparación
+
+print(7 > 3) #mayor que
+print(3 < 7) #menor que
+print(3 >= 2) #mayor o igual que
+print(2 <= 3) # menor o igual que
+print(2 == 2) #comparación igual que
+print(2 != 3) # diferente que
+
+
