@@ -82,4 +82,12 @@ print(2 <= 3) # menor o igual que
 print(2 == 2) #comparación igual que
 print(2 != 3) # diferente que
 
+#Comparar flotantes
+
+x = 3.3
+print(x)
+y = 2.2 + 1.1
+print(y)
+tolerance = 0.00001
+print(abs(y-x) < tolerance)
 
