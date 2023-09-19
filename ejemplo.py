@@ -63,3 +63,12 @@ edad = 27
 print(edad)
 print(f"mi edad es {edad}")
 
+#Operadores
+
+print(10 +10) #suma
+print(10-5) #sustraccion
+print(10*2) #multiplicación
+print(10/2) #división
+print(10%2) #residuo de división
+print(10//3) #modulo de la división
+print(2**3) #potenciación
