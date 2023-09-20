@@ -100,3 +100,22 @@ print(True or False) # operador or cualquiera de las condiciones se puede cumpli
 
 print(not True)
 print(not (True and True))
+
+# Condicionales
+'''
+pet = input("cual es tu mascota Favorita: ")
+
+if pet == "perro":
+    print("excelente es perro")
+if pet == "gato":
+    print("Excelente es un gato")
+else:
+    print("perdon no corresponde")
+'''
+
+number = int(input("ingresa un numero: "))
+par = number % 2
+if par == 0:
+    print("el numero es par")
+else:
+    print("el numero es impar")
