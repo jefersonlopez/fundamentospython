@@ -95,3 +95,8 @@ print(abs(y-x) < tolerance)
 
 print(True and True) # operador and las dos condiciones deben cumplirse
 print(True or False) # operador or cualquiera de las condiciones se puede cumplir
+
+#operador not
+
+print(not True)
+print(not (True and True))
