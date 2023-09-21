@@ -28,7 +28,7 @@ print(type(Estado_civil))
 edad = input("¿Cual es la edad? ")
 print("edad es: ", edad)
 print(type(edad))
-"""
+
 name = "jeferson"
 last_name = 'Lopez'
 print(name)
@@ -62,4 +62,22 @@ print(type(valor1))
 edad = 27
 print(edad)
 print(f"mi edad es {edad}")
+"""
 
+# string recargado
+
+resume = 'Python es un lenguaje de programación ampliamente utilizado'
+print(len(resume))
+resume = resume.upper()
+print(resume)
+resume = resume.lower()
+print(resume)
+resume = resume.title()
+print(resume)
+print(resume.count('p'))
+resume = resume.swapcase()
+print(resume)
+resume = resume.capitalize()
+print(resume)
+resume = resume.replace('a','e')
+print(resume)
