@@ -103,7 +103,7 @@ print(task)
 
 task[0] = 'wake up'
 print(task)
-"""
+
 
 #metodos de listas
 
@@ -124,3 +124,13 @@ numbers.reverse()
 print(numbers)
 numbers.sort()
 print(numbers)
+"""
+
+#tuplas no se puede hacer cambios a estas
+
+numbers = (1,2,3,4)
+names = ('carlos', 'Juan', 'Jefersonm')
+print(names.index('Juan'))
+print(type(numbers))
+my_list = list(numbers)
+print(type(my_list))
