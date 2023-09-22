@@ -81,7 +81,7 @@ resume = resume.capitalize()
 print(resume)
 resume = resume.replace('a','e')
 print(resume)
-"""
+
 
 #indexing y slicing
 
@@ -90,3 +90,17 @@ print(texto[1:4])
 print(texto[:5])
 print(texto[3:])
 print(texto[::2])
+"""
+
+#listas se puede almacenar cualquier tipo de datos no tienen que ser todos los elemnetos del mismo tipo
+
+numbers = [1,2,3,4]
+print(numbers)
+print(type(numbers))
+
+task = ['make a dishes', 'take a shower']
+print(task)
+
+task[0] = 'wake up'
+print(task)
+
