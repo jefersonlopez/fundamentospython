@@ -90,7 +90,7 @@ print(texto[1:4])
 print(texto[:5])
 print(texto[3:])
 print(texto[::2])
-"""
+
 
 #listas se puede almacenar cualquier tipo de datos no tienen que ser todos los elemnetos del mismo tipo
 
@@ -103,4 +103,24 @@ print(task)
 
 task[0] = 'wake up'
 print(task)
+"""
 
+#metodos de listas
+
+numbers = [4,6,435,432,43,23,324,3,2,5,567,65,4,2,3443,]
+print(numbers)
+numbers.append(6)
+print(numbers)
+numbers.insert(4, 45)
+print(numbers)
+print(numbers.index(2))
+numbers.remove(23)
+print(numbers)
+numbers.pop()
+print(numbers)
+numbers.pop(10)
+print(numbers)
+numbers.reverse()
+print(numbers)
+numbers.sort()
+print(numbers)
