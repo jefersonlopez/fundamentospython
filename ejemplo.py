@@ -62,7 +62,7 @@ print(type(valor1))
 edad = 27
 print(edad)
 print(f"mi edad es {edad}")
-"""
+
 
 # string recargado
 
@@ -81,3 +81,12 @@ resume = resume.capitalize()
 print(resume)
 resume = resume.replace('a','e')
 print(resume)
+"""
+
+#indexing y slicing
+
+texto = "yo se python"
+print(texto[1:4])
+print(texto[:5])
+print(texto[3:])
+print(texto[::2])
