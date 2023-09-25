@@ -63,3 +63,11 @@ edad = 27
 print(edad)
 print(f"mi edad es {edad}")
 
+person = {
+    'name': 'Nicolas',
+    'lastName': 'Molina',
+    'age': 29
+}
+
+person['twitter'] = '@nicobytes'
+print(person)
