@@ -71,3 +71,26 @@ person = {
 
 person['twitter'] = '@nicobytes'
 print(person)
+
+#Ciclos while
+
+'''
+counter = 0
+
+while counter < 10:
+    counter += 1
+    print('valor couenter: ', counter)
+
+counter = 0
+while counter < 20:
+    counter += 1
+    if counter == 15:
+        break
+    print('valor counter: ', counter)
+'''
+counter = 0
+while counter < 20:
+    counter += 1
+    if counter < 15:
+        continue
+    print('valor counter: ', counter)
