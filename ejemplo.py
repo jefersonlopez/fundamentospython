@@ -87,10 +87,64 @@ while counter < 20:
     if counter == 15:
         break
     print('valor counter: ', counter)
-'''
+
 counter = 0
 while counter < 20:
     counter += 1
     if counter < 15:
         continue
     print('valor counter: ', counter)
+'''
+
+
+#ciclo for
+'''
+for element in range(1,21):
+    print(element)
+
+
+my_list = [23, 45, 67, 89, 43]
+for element in my_list:
+    print(element) 
+
+
+my_tuple = ('nico', 'Juli', 'Santi')
+for element in my_tuple:
+    print(element)
+
+
+product = {
+    'name': 'camisa',
+    'price': 100,
+    'stock': 89
+}
+
+for element in product:
+    print(product[element])
+
+for key, value in product.items():
+    print(f"keys {key} => {value}")
+
+print(product.items())
+
+'''
+people = [
+    {
+        'name': 'nico',
+        'age': 34
+    },
+    {
+        'name': 'Juan',
+        'age': 45
+    },
+    {
+        'name': 'Pedro',
+        'age': 25
+    }
+]
+
+for person in people:
+    print(person)
+
+for person in people:
+    print(f"name: {person['name']}\nage: {person['age']}")
