@@ -63,74 +63,103 @@ edad = 27
 print(edad)
 print(f"mi edad es {edad}")
 
+person = {
+    'name': 'Nicolas',
+    'lastName': 'Molina',
+    'age': 29
+}
 
-# string recargado
+person['twitter'] = '@nicobytes'
+print(person)
 
-resume = 'Python es un lenguaje de programación ampliamente utilizado'
-print(len(resume))
-resume = resume.upper()
-print(resume)
-resume = resume.lower()
-print(resume)
-resume = resume.title()
-print(resume)
-print(resume.count('p'))
-resume = resume.swapcase()
-print(resume)
-resume = resume.capitalize()
-print(resume)
-resume = resume.replace('a','e')
-print(resume)
+#Ciclos while
 
+'''
+counter = 0
 
-#indexing y slicing
+while counter < 10:
+    counter += 1
+    print('valor couenter: ', counter)
 
-texto = "yo se python"
-print(texto[1:4])
-print(texto[:5])
-print(texto[3:])
-print(texto[::2])
+counter = 0
+while counter < 20:
+    counter += 1
+    if counter == 15:
+        break
+    print('valor counter: ', counter)
 
-
-#listas se puede almacenar cualquier tipo de datos no tienen que ser todos los elemnetos del mismo tipo
-
-numbers = [1,2,3,4]
-print(numbers)
-print(type(numbers))
-
-task = ['make a dishes', 'take a shower']
-print(task)
-
-task[0] = 'wake up'
-print(task)
+counter = 0
+while counter < 20:
+    counter += 1
+    if counter < 15:
+        continue
+    print('valor counter: ', counter)
+'''
 
 
-#metodos de listas
+#ciclo for
+'''
+for element in range(1,21):
+    print(element)
 
-numbers = [4,6,435,432,43,23,324,3,2,5,567,65,4,2,3443,]
-print(numbers)
-numbers.append(6)
-print(numbers)
-numbers.insert(4, 45)
-print(numbers)
-print(numbers.index(2))
-numbers.remove(23)
-print(numbers)
-numbers.pop()
-print(numbers)
-numbers.pop(10)
-print(numbers)
-numbers.reverse()
-print(numbers)
-numbers.sort()
-print(numbers)
-"""
 
-#tuplas no se puede hacer cambios a estas
+my_list = [23, 45, 67, 89, 43]
+for element in my_list:
+    print(element) 
 
-numbers = (1,2,3,4)
-names = ('carlos', 'Juan', 'Jefersonm')
-print(names.index('Juan'))
-print(type(numbers))
-my_list = list(numbers)
-print(type(my_list))
+
+my_tuple = ('nico', 'Juli', 'Santi')
+for element in my_tuple:
+    print(element)
+
+
+product = {
+    'name': 'camisa',
+    'price': 100,
+    'stock': 89
+}
+
+for element in product:
+    print(product[element])
+
+for key, value in product.items():
+    print(f"keys {key} => {value}")
+
+print(product.items())
+
+
+people = [
+    {
+        'name': 'nico',
+        'age': 34
+    },
+    {
+        'name': 'Juan',
+        'age': 45
+    },
+    {
+        'name': 'Pedro',
+        'age': 25
+    }
+]
+
+for person in people:
+    print(person)
+
+for person in people:
+    print(f"name: {person['name']}\nage: {person['age']}")
+    '''
+#ciclos anidados
+
+matriz= [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+print(matriz[0][1])
+
+for row in matriz:
+    print(row)
+    for column in row:
+        print(column)
