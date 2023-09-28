@@ -63,73 +63,6 @@ edad = 27
 print(edad)
 print(f"mi edad es {edad}")
 
-<<<<<<< HEAD
-#Operadores
-
-print(10 +10) #suma
-print(10-5) #sustraccion
-print(10*2) #multiplicación
-print(10/2) #división
-print(10%2) #residuo de división
-print(10//3) #modulo de la división
-print(2**3) #potenciación
-
-#Operadores de comparación
-
-print(7 > 3) #mayor que
-print(3 < 7) #menor que
-print(3 >= 2) #mayor o igual que
-print(2 <= 3) # menor o igual que
-print(2 == 2) #comparación igual que
-print(2 != 3) # diferente que
-
-#Comparar flotantes
-
-x = 3.3
-print(x)
-y = 2.2 + 1.1
-print(y)
-tolerance = 0.00001
-print(abs(y-x) < tolerance)
-
-#Operadores logicos
-
-print(True and True) # operador and las dos condiciones deben cumplirse
-print(True or False) # operador or cualquiera de las condiciones se puede cumplir
-
-#operador not
-
-print(not True)
-print(not (True and True))
-
-# Condicionales
-'''
-pet = input("cual es tu mascota Favorita: ")
-
-if pet == "perro":
-    print("excelente es perro")
-if pet == "gato":
-    print("Excelente es un gato")
-else:
-    print("perdon no corresponde")
-
-
-number = int(input("ingresa un numero: "))
-par = number % 2
-if par == 0:
-    print("el numero es par")
-else:
-    print("el numero es impar")
-'''
-    
-# juego piedra papel o tijera
-
-user_option = input("piedra, papel o tijera: ")
-computer_option = "piedra"
-
-if computer_option == user_option:
-    print("Empate")
-=======
 
 # string recargado
 
@@ -201,4 +134,3 @@ print(names.index('Juan'))
 print(type(numbers))
 my_list = list(numbers)
 print(type(my_list))
->>>>>>> listas_y_diccionarios
